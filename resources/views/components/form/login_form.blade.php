@@ -47,7 +47,6 @@
     <div class="flex justify-between items-center gap-3">
         <a href="/" class="btn btn-sm btn-info capitalize w-32">
             <img class="w-4 h-4 mr-4" src="{{ asset('/images/icon/facebook.svg') }}" alt="">facebook</a>
-        <a href="/" class="btn btn-sm btn-ghost bg-white_smoke capitalize w-32"><img class="w-4 h-4 mr-4"
-                                                                                     src="{{ asset('/images/icon/gmail.svg') }}" alt="">google</a>
+        <a href="/" class="btn btn-sm btn-ghost bg-white_smoke capitalize w-32"><img class="w-4 h-4 mr-4" src="{{ asset('/images/icon/gmail.svg') }}" alt="">google</a>
     </div>
 </div>

@@ -16,7 +16,7 @@
                             <div tabindex="0" class="p-8 shadow menu dropdown-content bg-base-100 h-content">
                                 <div class="font-semibold text-center text-blue_ocean ">Login ke Akun Anda</div>
                                 <div class="border-b border-blue_ocean"></div>
-                                <x-auth.login></x-auth.login>
+                                <x-form.login_form></x-form.login_form>
                             </div>
                         </div>
                         <div class="text-sm">Don't have account ? please <a class="text-blue_ocean"

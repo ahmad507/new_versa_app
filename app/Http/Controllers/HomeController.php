@@ -14,7 +14,7 @@ class HomeController extends Controller
     /**++++++++++++++++++++++++++++++++++++++++++++++ */
     public function __construct(NavigationInterface $navigationInterface, FooterInterface $footerInterface)
     {
-        $this->middleware('auth');
+        $this->middleware('guest');
         $this->navigationInterface = $navigationInterface;
         $this->footerInterface = $footerInterface;
     }
